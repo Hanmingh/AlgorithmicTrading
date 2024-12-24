@@ -1,0 +1,7 @@
+time,strategy,identifier,symbol,side,type,status,multiplier,time_in_force,asset.strike,asset.multiplier,asset.asset_type,price,filled_quantity,trade_cost
+2021-06-01 09:30:00-04:00,MovingAverageCrossover,188a08c0d1054695bb4a4f71203da761,QQQ,buy,market,new,1,gtc,0.0,1,stock,,,
+2021-06-01 09:30:00-04:00,MovingAverageCrossover,188a08c0d1054695bb4a4f71203da761,QQQ,buy,market,fill,1,gtc,0.0,1,stock,335.29998779296875,298.0,0.0
+2022-03-02 09:30:00-05:00,MovingAverageCrossover,fb515f7c6fe64e34bf36c305c76abf6a,QQQ,sell,market,new,1,gtc,0.0,1,stock,,,
+2022-03-02 09:30:00-05:00,MovingAverageCrossover,fb515f7c6fe64e34bf36c305c76abf6a,QQQ,sell,market,fill,1,gtc,0.0,1,stock,343.0799865722656,298.0,0.0
+2023-03-14 09:30:00-04:00,MovingAverageCrossover,5dd6da3265364fbeaea655b48cf2f8c8,QQQ,buy,market,new,1,gtc,0.0,1,stock,,,
+2023-03-14 09:30:00-04:00,MovingAverageCrossover,5dd6da3265364fbeaea655b48cf2f8c8,QQQ,buy,market,fill,1,gtc,0.0,1,stock,294.30999755859375,347.0,0.0

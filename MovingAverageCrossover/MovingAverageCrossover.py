@@ -8,11 +8,11 @@ from lumibot.traders import Trader
 class MovingAverageCrossover(Strategy):
 
     def initialize(self):
-        self.symbol = "TQQQ"  # Asset to trade
+        self.symbol = "QQQ"  # Asset to trade
         # For short term trading, use 5-20; 10-50 is the classic one; 20-100 is mid-long term; 50-200 is long term.
-        self.short_window = 40  # Short-term moving average window
-        self.long_window = 100  # Long-term moving average window
-        self.sleeptime = "1h"
+        self.short_window = 50  # Short-term moving average window
+        self.long_window = 200  # Long-term moving average window
+        self.sleeptime = "1d"
     
     def on_trading_iteration(self):
         # Fetch historical data
@@ -46,7 +46,7 @@ class MovingAverageCrossover(Strategy):
 
 if __name__ == "__main__":
     if IS_BACKTESTING:
-        start = datetime(2022, 6, 1)
+        start = datetime(2021, 6, 1)
         end = datetime(2024, 6, 1)
         MovingAverageCrossover.backtest(
             YahooDataBacktesting,
