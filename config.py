@@ -1,0 +1,2 @@
+SYMBOL = "TQQQ"
+SLEEPTIME = "1h"
